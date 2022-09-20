@@ -82,6 +82,7 @@ listeners. With this approach, we would pass the _function name_ as the second
 argument to `addEventListener()` rather than the function itself:
 
 ```js
+
 const input = document.getElementById('button');
 
 function clickAlert() {
